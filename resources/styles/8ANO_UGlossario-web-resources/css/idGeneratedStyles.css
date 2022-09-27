@@ -1,0 +1,107 @@
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
+	margin:0;
+	padding:0;
+	border-width:0;
+}
+body {
+	-epub-hyphens:auto;
+}
+p.Normal {
+	-epub-hyphens:none;
+	color:#000000;
+	font-family:Calibri, sans-serif;
+	font-size:11px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:8px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.Par-grafo-b-sico {
+	color:#000000;
+	font-family:"Minion Pro", serif;
+	font-size:12px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p. {
+	margin-top:6px;
+	text-align:justify;
+	text-align-last:left;
+}
+p. {
+	margin-bottom:9px;
+	margin-top:6px;
+	text-align:justify;
+	text-align-last:left;
+}
+p. {
+	text-align:center;
+}
+span.CharOverride-1 {
+	color:#0080c9;
+	font-family:Arial, sans-serif;
+	font-size:10px;
+	font-style:normal;
+	font-weight:bold;
+}
+span.CharOverride-2 {
+	font-family:Arial, sans-serif;
+	font-size:10px;
+	font-style:normal;
+	font-weight:normal;
+}
+span.CharOverride-3 {
+	font-family:Arial, sans-serif;
+	font-size:10px;
+	font-style:italic;
+	font-weight:normal;
+}
+span.CharOverride-4 {
+	color:#0080c9;
+	font-family:Arial, sans-serif;
+	font-size:10px;
+	font-style:italic;
+	font-weight:bold;
+}
+span.CharOverride-5 {
+	font-family:Arial, sans-serif;
+	font-size:10px;
+	font-style:normal;
+	font-weight:bold;
+}
+span.CharOverride-6 {
+	color:#0080c9;
+	font-family:Calibri, sans-serif;
+	font-size:36px;
+	font-style:normal;
+	font-weight:normal;
+}
+div._idGenObjectStyleOverride-1 {
+	border-width:0px;
+}

@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400&display=swap%22");
+
+@counter-style seta{
+    system: additive;
+    additive-symbols: ‣1;
+}
+
+
+/*-------------G R I D S ---------------*/
+.d-flex {
+  display: flex;
+  align-items: center;
+  gap: 2px; 
+}
+.grid2{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2px;
+  justify-content: space-between;
+}
+.iconedireita {
+  display: flex;
+  justify-content: space-between;
+}
+.d-flex2 {
+  display: flex;
+  align-items: right;
+  gap: 2px;
+  justify-content: space-between;
+}
+/*-------------C A R T Õ E S ---------------*/
+
+.card{
+    position: relative;
+    top: 0;
+    color: brown;
+    border: 1px;
+    border-radius: 3px;
+}
+.cardIntro{
+    text-align: center;
+    display: block;
+    width: 70%;
+    border: 1px;
+    margin: 10%;
+}
+.converse{
+    display: block;
+    width: 0.8fr;
+    margin: 0%!important;
+    padding: 0%;
+    text-align: left!important;
+    align-items: left;
+}
+/*-------------I  M  A  G  E  N  S ---------------*/
+.img {
+  width: 500px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.imgicone {
+  width: 100px;
+  height: 120px;
+}
+.imgreal {
+  width: 300px;
+  height: 400px;
+}
+.imgred{
+  width: 300px !important;
+  height: 300px !important;
+}
+/*-------------A L I N H A M E N T O ---------------*/
+.textright {
+  text-align: right;
+}
+.center{
+  text-align: center;
+  align-items: center;
+}
+.right {
+  text-align: right;
+  /*float: right;*/
+}
+.textleft{
+    text-align: left;
+}
+.textcenter {
+  text-align: center;
+}
+
+
+/*-------------C O L O R A Ç Ã O ---------------*/
+.laranja{
+    color: rgb(241, 135, 22);    
+}
+.normal{
+    color: black;
+}
+
+@counter-style seta{
+    system:;
+    additive-symbols: ‣;
+}
+
+/*-------------G R I D S ---------------*/
+.d-flex {
+  display: flex;
+  align-items: center;
+  gap: 2px; 
+}
+.grid2{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2px;
+  justify-content: space-between;
+}
+.iconedireita {
+  display: flex;
+  justify-content: space-between;
+}
+.d-flex2 {
+  display: flex;
+  align-items: right;
+  gap: 2px;
+  justify-content: space-between;
+}
+/*-------------C A R T Õ E S ---------------*/
+
+.card{
+    position: relative;
+    top: 0;
+    color: brown;
+    border: 1px;
+    border-radius: 3px;
+}
+.cardIntro{
+    text-align: center;
+    display: block;
+    width: 70%;
+    border: 1px;
+    margin: 10%;
+}
+.converse{
+    display: block;
+    width: 0.8fr;
+    margin: 0%!important;
+    padding: 0%;
+    text-align: left!important;
+    align-items: left;
+}
+/*-------------I  M  A  G  E  N  S ---------------*/
+.img {
+  width: 500px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.imgicone {
+  width: 100px;
+  height: 120px;
+}
+.imgreal {
+  width: 300px;
+  height: 400px;
+}
+.imgred{
+  width: 300px !important;
+  height: 300px !important;
+}
+/*-------------A L I N H A M E N T O ---------------*/
+.textright {
+  text-align: right;
+}
+.center{
+  text-align: center;
+  align-items: center;
+}
+.right {
+  text-align: right;
+  /*float: right;*/
+}
+.textleft{
+    text-align: left;
+}
+.textcenter {
+  text-align: center;
+}
+
+
+/*-------------C O L O R A Ç Ã O ---------------*/
+.laranja{
+    color: rgb(241, 135, 22);    
+}
+.normal{
+    color: black;
+}
+.atividade {
+  color: rgb(241, 135, 22);
+}

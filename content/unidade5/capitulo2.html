@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Uni5-Capítulo 2</title>
+  <link href="../../resources/styles/8ANO_U5-web-resources/css/idGeneratedStyles.css" rel="stylesheet"
+    type="text/css" />
+  <link href="../../resources/styles/sytle.css" rel="stylesheet" type="text/css" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="language" content="pt-br" />
+  <meta name="publisher" content=" Terra Sul Editora Eireli" />
+  <meta name="description" content="Matemática : contexto e prática : 8º ano : livro digital-interativo do aluno / Cintia
+                    Bagatin Lapa ; ilustradores : Reinaldo Rosa e Sérgio Bonfim dos
+                    Santos. &ndash; 2. ed. &ndash; Curitiba, PR : Terra Sul Editora, 2022." />
+  <meta name="author" content="Cintia Bagatin Lapa" />
+  <meta name="robots" content="noindex, nofollow" />
+
+</head>
+
+<body lang="pt-BR" xml:lang="pt-BR">
+  <div itemscope="" itemtype="https://schema.org/Book">
+    <meta itemprop="publisher" content="Terra Sul Editora Eireli" />  
+    <meta itemprop="name" content="Matemática Contexto e Prática" />
+    <meta itemprop="description" content="Matemática : contexto e prática : 8º ano : livro digital-interativo do
+                                        aluno / Cintia Bagatin Lapa ; ilustradores : Reinaldo Rosa e Sérgio
+                                        Bonfim dos Santos. – 2. ed. – Curitiba, PR : Terra Sul Editora, 2022." />
+    <meta itemprop="author" content="Cintia Bagatin Lapa" />
+    <meta itemprop="illustrator" content="Sérgio Bonfim dos Santos"/>
+    <meta itemprop="bookEdition" content="2"/>
+    <meta itemprop="copyrightYear" content="2022" />
+    <meta itemprop="isbn" content="978-65-5645-200-5" />
+    <meta itemprop="abridged" content="0" />
+    <meta itemprop="accessibilityFeature" content="largePrint/CSSEnabled" />
+    <meta itemprop="accessibilityFeature" content="highContrast/CSSEnabled" />
+    <meta itemprop="accessibilityFeature" content="resizeText/CSSEnabled" />
+    <meta itemprop="accessibilityFeature" content="displayTransformability" />
+    <meta itemprop="accessibilityFeature" content="longDescription" />
+    <meta itemprop="accessibilityFeature" content="alternativeText" />
+    <meta itemprop="accessibilityFeature" content="latex" />
+    <meta itemprop="accessibilityFeature" content="MathML" />
+    <meta itemprop="accessibilityFeature" content="structuralNavigation" />
+    <meta itemprop="accessMode" content="textual"/>
+    <meta itemprop="accessMode" content="visual"/>
+    <meta itemprop="encodingFormat" content="text/html" />
+    <meta itemprop="accessibilityControl" content="fullKeyboardControl" />
+    <meta itemprop="accessibilityControl" content="fullMouseControl" />
+    <meta itemprop="accessibilityHazard" content="noFlashingHazard" />
+    <meta itemprop="accessibilityHazard" content="noMotionSimulationHazard" />
+    <meta itemprop="accessibilityHazard" content="noSoundHazard" />
+    <meta itemprop="accessibilityAPI" content="ARIA" />
+  </div>
+
+  <main role=main class="container">
+
+
+    <hr><!--Numeração--><br />
+    <div class="grid2">
+      <p></p>
+      <div class="right">
+        <p class="calibre1 pg numero2">111</p>
+      </div>
+    </div>
+    <h1 class="calibre1 titulo mt40">CAPÍTULO 2 - Número de diagonais de um polígono convexo</h1>
+    <div >
+      <p>
+        A <span class="negrito">diagonal</span> de um polígono convexo
+        é o segmento de reta que une um vértice a outro não consecutivo.
+      </p>
+      <p>Observe a seguir as diagonais do quadrilátero:</p>
+      <p>
+        <img class="8" src="../../resources/images/8ANO_U5_image/U6_19.png"
+          alt="Um retângulo verde ABCD na horizontal. Dois seguimentos diagonais. Um liga A com c. Outra B com C.  " />
+      </p>
+      <p>
+        O quadrilátero tem duas diagonais:
+        <math aria-label="segmento de reta do ponto A ao ponto C" display="inline">
+          <mrow>
+            <mover>
+              <mi>AC</mi>
+              <mo>&macr;</mo>
+            </mover>
+          </mrow>
+        </math>
+        e
+        <math aria-label="segmento de reta do ponto B ao ponto D" display="inline">
+          <mrow>
+            <mover>
+              <mi>BD</mi>
+              <mo>&macr;</mo>
+            </mover>
+          </mrow>
+        </math>
+        .
+      </p>
+      <p>
+        Agora, veja as diagonais do pentágono:
+      </p>
+      <p>
+        <img class="9" src="../../resources/images/8ANO_U5_image/U6_20.png"
+          alt="Um pentágono azul ABCDE. A é o vértice superior. AE a lateral esquerda; AB a lateral direita. DC é a base do pentágono. Seguimentos de três cores distintas ligam os vértices formando uma estrela de cinco pontas. A com D, A com C, na cor preta. E com B, E com C, na cor amarela. B com D, na cor vermelha." />
+      </p>
+      <p>
+        Observe que de cada vértice partem duas diagonais. Então, como esse
+        polígono tem 5 vértices, poderíamos pensar que ele tem 10 diagonais.
+        Porém, note que cada diagonal foi contada duas vezes, pois cada
+        diagonal tem extremidade em dois vértices. Por exemplo:
+        <math aria-label="segmento de reta do ponto A ao ponto D" display="inline">
+          <mrow>
+            <mover>
+              <mi>AD</mi>
+              <mo>&macr;</mo>
+            </mover>
+          </mrow>
+        </math>
+        e
+        <math aria-label="segmento de reta do ponto D ao ponto A" display="inline">
+          <mrow>
+            <mover>
+              <mi>DA</mi>
+              <mo>&macr;</mo>
+            </mover>
+          </mrow>
+        </math>
+        são a mesma diagonal. Portanto,
+        para determinar o número de diagonais de um polígono, devemos
+        multiplicar o número de vértices (ou lados) do polígono pelo número de
+        diagonais que partem cada vértice, dividindo o resultado por 2. No
+        caso do pentágono, temos:
+      </p>
+      <ul class="amarelo">
+        <li>
+          <p class="normal">número de lados (<span class="negrito">n</span>): 5</p>
+        </li>
+        <li>
+          <p class="normal">número de diagonais que partem de cada vértice: 2</p>
+        </li>
+        <li>
+          <p class="normal">número de diagonais (d):</p>
+        </li>
+      </ul>
+      &emsp;&emsp;<math aria-label="D igual a 5 multiplicado por 2 sobre 2 " display="inline">
+        <mrow>
+          <mi>d</mi>
+          <mo>=</mo>
+          <mfrac>
+            <mrow>
+              <mn>5</mn>
+              <mo lspace='thinmathspace' rspace='thinmathspace'>&sdot;</mo>
+              <mn>2</mn>
+            </mrow>
+            <mn>2</mn>
+          </mfrac>
+        </mrow>
+      </math>
+
+      <p>Logo, o pentágono tem 5 diagonais.</p>
+      <!------------------------------------------------------------------------------------------------------
+  ------------------------------------------------------------------------------------------------------>
+      <hr>
+      <hr><!--Numeração--><br />
+      <div class="grid2">
+        <p></p>
+        <div class="right">
+          <p class="calibre1 pg numero2">112</p>
+        </div>
+      </div>
+      <div class="LayoutDuplo">
+        <img class="imgicone" src="../../resources/images/8ANO_U0_image/troca-de-ideias.png"
+          alt="ícone do troca de ideias">
+        <ol role=list>
+          <li>
+            <p>Construa o quadro abaixo, em seu caderno e, trocando ideias com um
+              colega, completem-no com os dados que estão faltando. Façam um
+              esboço dos desenhos dos polígonos e tracem as diagonais para
+              auxiliar no preenchimento dos dados.</p>
+          </li>
+        </ol>
+      </div>
+      <p>
+        <img class="1" src="../../resources/images/8ANO_U5_image/M8A_28.png"
+          alt="Tabela com quatro linhas e seis colunas. Linha 1: Polígono; Número de lados (n); Número de diagonais que partem de cada vértice; Número de diagonais (d). Linha 2: quadrilátero; os outros espaços estão em branco. Linha 3: pentágono; os outros espaços estão em branco. Linha 4: hexágono; os outros espaços estão em branco. Linha 5: heptágono; os outros espaços estão em branco. Linha 6: octógono; os outros espaços estão em branco. " />
+      </p>
+      <p>Feito isso, respondam:</p>
+      <ol role=list id="lista" class="amarelo">
+        <li>
+          <p class="normal">
+          <p class="normal">
+            Comparando o número de diagonais que partem de cada um dos vértices
+            com o número de lados do polígono, o que vocês observam?
+          </p>
+        </li>
+        <li>
+          <p class="normal">
+            Multiplique o número de lados pelo número de diagonais que partem de
+            cada vértice. Depois, compare o resultado com o número total de
+            diagonais de cada um dos polígonos. Qual relação pode ser
+            estabelecida?
+          </p>
+        </li>
+        <li>
+          <p class="normal">
+            Sendo <span class="negrito">n</span> o número de lados e
+            <span class="negrito">d</span> o número total de diagonais de
+            um polígono. Qual relação nos permite calcular o número total de
+            diagonais?
+          </p>
+        </li>
+      </ol>
+      <!--Revisar Cartão-->
+      <div class="card">
+        <p class="normal indent">
+          O número total de diagonais (<span class="negrito">d</span>) de um polígono de <span class="negrito">n</span>
+          lados pode ser calculado por meio da relação:
+        </p>
+        <br />
+        <div class="center">
+          <p class="normal">
+            <math aria-label="D igual a n multiplicado por n vezes 3 sobre 2 " display="inline">
+              <mrow>
+                <mi>d</mi>
+                <mo>=</mo>
+                <mfrac>
+                  <mrow>
+                    <mi>n</mi>
+                    <mo lspace='thinmathspace' rspace='thinmathspace'>&sdot;</mo>
+                    <mfenced open='(' close=')'>
+                      <mrow>
+                        <mi>n</mi>
+                        <mo lspace='thinmathspace' rspace='thinmathspace'>&sdot;</mo>
+                        <mn>3</mn>
+                      </mrow>
+                    </mfenced>
+                  </mrow>
+                  <mn>2</mn>
+                </mfrac>
+              </mrow>
+            </math>
+            <br />
+          </p>
+        </div>
+      </div>
+      <br />
+      <p>Observe a situação a seguir:</p>
+      <ul class="amarelo">
+        <li>
+          <p class="normal">Determine o número de diagonais de um eneágono, polígono de nove
+            lados.</p>
+        </li>
+      </ul>
+      <p>Assim:</p>
+      <p>
+        n <span class="CharOverride-5">=</span> 9
+      </p>
+    </div>
+    <hr>
+    <hr><!--Numeração--><br />
+    <div class="grid2">
+      <p></p>
+      <div class="right">
+        <p class="calibre1 pg numero2">113</p>
+      </div>
+    </div>
+    <div class="iconedireita">
+      <div>
+        <p>Substituindo os valores:</p>
+        <!--Revisar Fórmula-->
+        <p class="center">
+          <math display="inline">
+            <mrow>
+              <mi>d</mi>
+              <mo>=</mo>
+              <mfrac>
+                <mrow>
+                  <mn>9</mn>
+                  <mo lspace='thinmathspace' rspace='thinmathspace'>&sdot;</mo>
+                  <mfenced open='(' close=')'>
+                    <mrow>
+                      <mn>9</mn>
+                      <mo>&minus;</mo>
+                      <mn>3</mn>
+                    </mrow>
+                  </mfenced>
+                </mrow>
+                <mn>2</mn>
+              </mfrac>
+            </mrow>
+          </math>
+          <br />
+          <math aria-label="segmento de reta do ponto A ao ponto C" display="inline">
+            <mrow>
+              <mi>d</mi>
+              <mo>=</mo>
+              <mfrac>
+                <mrow>
+                  <mn>9</mn>
+                  <mo lspace='thinmathspace' rspace='thinmathspace'>&sdot;</mo>
+                  <mn>6</mn>
+                </mrow>
+                <mn>2</mn>
+              </mfrac>
+              <mo>=</mo>
+              <mfrac>
+                <mn>54</mn>
+                <mn>2</mn>
+              </mfrac>
+            </mrow>
+          </math><br />
+          <math aria-label="segmento de reta do ponto A ao ponto C" display="inline">
+            <mrow>
+              <mi>d</mi>
+              <mo>=</mo>
+              <mn>27</mn>
+            </mrow>
+          </math>
+        </p>
+        <p>Logo, o eneágono tem 27 diagonais.</p>
+      </div>
+      <img id="img67_pg113" class="professorpg113" src="../../resources/images/8ANO_U5_image/Mat-8A_U6_03.png"
+        alt="Ilustração de um professor com jaleco. Com o braço direito estendido e a palma da mão voltada para cima, ele olha para a frente.  " />
+      <br />
+    </div>
+    <div >
+      <p class="credito">Reinaldo Rosa/Acervo da Editora</p>
+    </div>
+    <div>
+      <div>
+        <div class="imagem _idGenObjectStyleOverride-10"></div>
+
+        <p>
+          <span class="CharOverride-3">Encontre soluções</span>
+        </p>
+      </div>
+    </div>
+
+    <div >
+      <ol role=list>
+        <li>
+          Calcule, em seu caderno, o número de diagonais de um:
+          <ol class="alfaParen">
+            <li>octógono;</li>
+            <li>decágono;</li>
+            <li>dodecágono;</li>
+            <li>
+              polígono de 16 lados;
+            </li>
+            <li>
+              polígono de 18 lados;
+            </li>
+            <li>
+              polígono de 22 lados.
+            </li>
+          </ol>
+        </li>
+        <li>
+          <p class="normal">
+            Em qual polígono o número de diagonais é igual ao número de lados?
+          </p>
+        </li>
+        <li>
+          <p class="normal">Quantas diagonais possui um icoságono?</p>
+        </li>
+        <li>
+          <p class="normal">
+            A soma das medidas dos ângulos internos de um polígono é igual a 2
+            160º. Quantas diagonais esse polígono tem?
+          </p>
+        </li>
+        <li>
+          <p class="normal">
+            Um polígono tem o número de diagonais igual ao quádruplo do número
+            de lados. Quantos lados esse polígono tem?
+          </p>
+        </li>
+        <li>
+          <p class="normal">
+            Calcule a soma do número de diagonais de um heptágono com o número
+            de diagonais de um octógono.
+          </p>
+        </li>
+        <!--Revisar Fórmula-->
+        <li>
+          <p class="normal">
+            Qual é o polígono cujo número de lados equivale a
+            <math aria-label="dois quintos" display="inline">
+              <mrow>
+                <mfrac>
+                  <mn>2</mn>
+                  <mn>5</mn>
+                </mfrac>
+              </mrow>
+            </math>
+
+            do número de diagonais?
+          </p>
+        </li>
+        <li>
+          <p class="normal">
+            Num polígono, são 12 as diagonais que partem de cada vértice. Qual
+            polígono é esse? Qual é o total de diagonais?
+          </p>
+        </li>
+        <li>
+          <p class="normal">
+            Determine o número de diagonais de um polígono regular convexo cujo
+            ângulo externo é igual a 20º.
+          </p>
+        </li>
+        <li>
+          <p class="normal">
+            Qual polígono regular apresenta, a partir de cada vértice, o número
+            de diagonais equivalente ao número total de diagonais de um
+            heptágono?
+          </p>
+        </li>
+        <li>
+          <p class="normal">
+            Desenhe o polígono dado e trace todas as diagonais que partem de um
+            mesmo vértice.
+          </p>
+        </li>
+      </ol>
+      <p>
+        <img class="5" src="../../resources/images/8ANO_U5_image/U6_21.png"
+          alt="Um hexágono azul." />
+      </p>
+      <p>A seguir, responda:</p>
+      <ol>
+        <li>
+          <p class="normal">
+            Ao traçar as diagonais, quantos triângulos foram formados?
+          </p>
+        </li>
+        <li>
+          <p class="normal">
+            Qual é a soma dos ângulos internos desse polígono?
+          </p>
+        </li>
+        <li>
+          <p class="normal">Quantas diagonais esse polígono apresenta?</p>
+        </li>
+      </ol>
+    </div>
+    <!------------------------------------------------------------------------------------------------------
+  ------------------------------------------------------------------------------------------------------>
+    <hr>
+    <hr><!--Numeração--><br />
+    <div class="grid2">
+      <p></p>
+      <div class="right">
+        <p class="calibre1 pg numero2">114</p>
+      </div>
+    </div>
+    <section id="prob">
+      <div>
+        <div>
+          <div class="imagem _idGenObjectStyleOverride-10"></div>
+
+          <p>
+            <span class="CharOverride-2"> </span><span class="CharOverride-3">Probabilidade e estatística</span>
+          </p>
+
+        </div>
+      </div>
+      <div >
+        <ul class="amarelo">
+          <li>
+            <p class="normal">
+            <p class="normal">
+              <span class="negrito">Medidas de tendência central e de dispersão</span>
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <div >
+      <p>
+        Em estatística utilizamos as medidas de tendência central para
+        representar informações de forma resumida como, por exemplo, os dados
+        apresentados em uma lista. Vamos retomar como calculamos a moda,
+        mediana e média.
+      </p>
+      <ul class="amarelo">
+        <li>
+          <p class="normal">
+            <span class="negrito">Moda</span>: é seu valor mais
+            recorrente de um conjunto de dados.
+          </p>
+        </li>
+        <li>
+          <p class="normal">
+            <span class="negrito">Mediana</span>: é o valor que ocupa a
+            posição central dos valores quando organizamos esses dados em ordem.
+          </p>
+        </li>
+        <li>
+          <p class="normal">
+            <span class="negrito">Média</span>: podemos determinar a
+            média aritmética simples com a soma de todos os elementos e dividir
+            pela quantidade de elementos. Há também a média aritmética
+            ponderada, onde consideramos pesos para os valores.
+          </p>
+        </li>
+      </ul>
+      <p>Vejamos um exemplo:</p>
+
+      <div class="iconedireita">
+        <div>
+          <div>
+            <div >
+              <p>
+                Na sala de aula do 8.º ano, o professor gostaria de analisar os dados
+                obtendo as medidas de tendência central. Para isso, ele retirou do
+                diário de classe as notas dos seus alunos ao final do bimestre:
+              </p>
+              <img
+                src="../../resources/images/8ANO_U5_image/M8A_8ANO_Aluno-122-professor-mesa-B.png"
+                alt="85, 70, 85, 55, 50, 70, 80, 90, 50, 40, 65, 30, 80, 60, 75, 50, 65, 60 e 75" />
+              <p>
+                Moda: observando as notas, temos que o valor mais frequente é 50.
+              </p>
+              <p>
+                Mediana: 30, 40, 50, 50, 50, 55, 60, 60, 65, 65, 70, 70, 75, 75, 80,
+                80, 85, 85, 90. Assim, a mediana é 65.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <div >
+              <img
+                src="../../resources/images/8ANO_U5_image/M8A_8ANO_Aluno-122-professor-mesa-A.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+      <hr><!--Numeração--><br />
+      <div class="grid2">
+        <p></p>
+        <div class="right">
+          <p class="calibre1 pg numero2">115</p>
+        </div>
+      </div>
+
+
+      <p>Média aritmética: 65, pois</p>
+      <div>
+        <!--Revisar Fórmula-->
+        <div >
+          <img src="../../resources/images/8ANO_U5_image/U5_Math01.png" alt="" />
+        </div>
+      </div>
+      <p></p>
+      <p>
+        Há também as medidas de dispersão que geralmente são utilizadas para
+        determinar o grau de variação dos dados em relação à sua média.
+      </p>
+      <ul class="amarelo">
+        <li>
+          <p class="normal">
+            <span class="negrito">Amplitude</span>: é a diferença entre o
+            maior e o menor valor que os dados assumem no conjunto.
+          </p>
+        
+        <div class="_idGenObjectStyleOverride-14">
+          <p>Você já ouviu falar de amplitude térmica?</p>
+          <p>
+            Amplitude térmica é uma expressão utilizada para indicar a diferença
+            entre a temperatura máxima e mínima registradas em um mesmo lugar
+            durante certo período.
+          </p>
+        </div>
+      </li>
+        <li>
+          <p class="normal">
+            <span class="negrito">Desvio</span>: é a diferença entre um
+            valor de um conjunto de dados e a sua média aritmética.
+          </p>
+        </li>
+      </ul>
+      <p>
+        Em nosso exemplo temos as notas 85, 70, 85, 55, 50, 70, 80, 90, 50,
+        40, 65, 30, 80, 60, 75, 50, 65, 60 e 75.
+      </p>
+      <p>
+        A amplitude é dada por: 90
+        <span class="CharOverride-5">-</span> 30<span class="CharOverride-5">
+          =</span>
+        60.
+      </p>
+      <p>
+        Desvio das 5 primeiras notas, considerando a média 65:
+      </p>
+      <p>
+        d<span class="CharOverride-7">1</span><span class="CharOverride-5"> =</span> 85
+        <span class="CharOverride-5">-</span> 65<span class="CharOverride-5">
+          =</span>
+        20
+      </p>
+      <p>
+        d<span class="CharOverride-7">2</span><span class="CharOverride-5"> =</span> 70
+        <span class="CharOverride-5">-</span> 65<span class="CharOverride-5">
+          =</span>
+        10
+      </p>
+      <p>
+        d<span class="CharOverride-7">3</span><span class="CharOverride-5"> =</span> 85
+        <span class="CharOverride-5">-</span> 65<span class="CharOverride-5">
+          =</span>
+        20
+      </p>
+      <p>
+        d<span class="CharOverride-7">4</span><span class="CharOverride-5"> =</span> 55
+        <span class="CharOverride-5">-</span> 65<span class="CharOverride-5">
+          =</span>
+        <span class="CharOverride-5">-</span>10
+      </p>
+      <ol>
+        <li>
+          <p class="normal">
+            Faça uma lista a partir do levantamento de suas notas desse ano e
+            determine a moda, a mediana, a média aritmética, a amplitude e o
+            desvio das 5 primeiras notas.
+          </p>
+        </li>
+      </ol>
+    </div>
+
+    <div>
+      <!--Revisar Fórmula-->
+      <!-- <div >
+          <img 
+           
+            src="../../resources/images/8ANO_U5_image/U5_Math01.png"
+            alt=""
+          />
+        </div> -->
+    </div>
+
+
+
+    <hr>
+    <hr><!--Numeração--><br />
+    <div class="grid2">
+      <p></p>
+      <div class="right">
+        <p class="calibre1 pg numero2">116</p>
+      </div>
+    </div>
+
+    <div>
+      <div>
+        <div>
+          <div class="imagem _idGenObjectStyleOverride-10"></div>
+
+          <p>
+            <span class="CharOverride-2">  </span><span class="CharOverride-3">Relembre</span>
+          </p>
+
+        </div>
+        <div class="_idGenObjectStyleOverride-15"></div>
+      </div>
+    </div>
+    <div class="_idGenObjectStyleOverride-15">
+      <ol>
+        <li>
+          A soma das medidas dos ângulos internos de um heptágono é igual à
+          soma das medidas de:
+          <ol class="alfaParen">
+            <li>
+              <p class="normal">7 ângulos retos;</p>
+            </li>
+            <li>
+              <p class="normal">8 ângulos retos;</p>
+            </li>
+            <li>
+              <p class="normal">9 ângulos retos;</p>
+            </li>
+            <li>
+              <p class="normal">10 ângulos retos.</p>
+            </li>
+          </ol>
+        </li>
+        <li>
+          Os ângulos internos de um triângulo medem
+          <span class="negrito">x</span>,
+          <span class="negrito">y</span> e
+          <span class="negrito">z</span>. Sabe-se que
+          <span class="negrito">x</span> supera
+          <span class="negrito">y</span> em 12º e que
+          <span class="negrito">z</span> supera
+          <span class="negrito">x</span> em 36º. Determine as medidas
+          <span class="negrito">x</span>,
+          <span class="negrito">y</span> e
+          <span class="negrito">z</span> respectivamente.
+        </li>
+        <li>
+          A diferença entre a soma das medidas dos ângulos internos de um
+          polígono de 13 lados e a de um icoságono é igual a:
+          <ol class="alfaParen">
+            <li>
+              <p class="normal">1 980º</p>
+            </li>
+            <li>
+              <p class="normal">1 260º</p>
+            </li>
+            <li>
+              <p class="normal">3 240º</p>
+            </li>
+            <li>
+              <p class="normal">0º</p>
+            </li>
+          </ol>
+        </li>
+        <li>
+          <p class="normal">Considere o seguinte polígono:</p>
+
+          <p>
+            <img class="6" src="../../resources/images/8ANO_U5_image/U6_22.png"
+              alt="Um polígono branco ABCD. A base é uma diagonal inclinada para cima, liga A com B. À direita o lado BC, uma diagonal, também inclinada para cima. CD é um seguimento horizontal, corresponde a parte superior do polígono. A lateral esquerda liga D com A com um seguimento vertical.  " />
+          </p>
+          <p>
+            <span class="numero-questao"></span>Determine a medida da soma
+            das medidas dos seus ângulos internos.
+          </p>
+        </li>
+        <li>
+          Qual é o polígono cuja medida do ângulo externo é igual à medida do
+          ângulo interno?
+          <ol class="alfaParen">
+            <li>
+              <p class="normal">Eneágono.</p>
+            </li>
+            <li>
+              <p class="normal">Octógono.</p>
+            </li>
+            <li>
+              <p class="normal">Hexágono.</p>
+            </li>
+            <li>
+              <p class="normal">Quadrilátero.</p>
+            </li>
+          </ol>
+        </li>
+        <li>
+          As medidas dos ângulos externos e internos de um polígono regular de
+          12 lados são, respectivamente, a<span class="CharOverride-7">e</span>
+          e a<span class="CharOverride-7">i</span>. Então, 3 · a<span class="CharOverride-7">e</span>
+          <span class="CharOverride-5">+</span> 4 · a<span class="CharOverride-7">i</span>
+          é igual a:
+          <ol class="alfaParen">
+            <li>
+              <p class="normal">210º</p>
+            </li>
+            <li>
+              <p class="normal">570º</p>
+            </li>
+            <li>
+              <p class="normal">690º</p>
+            </li>
+            <li>
+              <p class="normal">1 050º</p>
+            </li>
+          </ol>
+        </li>
+        <li>
+          Determine o número de diagonais do polígono abaixo.
+          <p>
+            <img class="7" src="../../resources/images/8ANO_U5_image/U6_23.png"
+              alt="Um pentágono azul." />
+          </p>
+        </li>
+        <li>
+          <p class="normal">
+            (UEL-PR) Um azulejista tem à sua disposição peças de cerâmicas em
+            forma dos seguintes polígonos regulares: quadrados, triângulos e
+            hexágonos, todos com a mesma medida do lado. Ele pretende pavimentar
+            uma superfície plana, colocando as peças lado a lado, sem deixar
+            espaço entre elas e sem haver sobreposição de peças. Os vértices das
+            peças que se encaixam devem coincidir num ponto chamado “nó”.
+          </p>
+          <p>
+            <span class="numero-questao"></span>Qual das alternativas
+            abaixo descreve uma sequência de polígonos que não possibilita formar
+            um nó?
+          </p>
+          <ol class="alfaParen">
+            <li>
+              <p class="normal">
+                triângulo, triângulo, triângulo, quadrado, quadrado
+              </p>
+            </li>
+            <li>
+              <p class="normal">
+                triângulo, triângulo, quadrado, triângulo, quadrado
+              </p>
+            </li>
+            <li>
+              <p class="normal">triângulo, hexágono, triângulo, hexágono</p>
+            </li>
+            <li>
+              <p class="normal">triângulo, quadrado, hexágono, quadrado</p>
+            </li>
+            <li>
+              <p class="normal">triângulo, triângulo, quadrado, quadrado, quadrado
+              </p>
+            </li>
+          </ol>
+        </li>
+      </ol>
+        </div>
+    <hr>
+    <hr><!--Numeração--><br />
+    <div class="grid2">
+      <p></p>
+      <div class="right">
+        <p class="calibre1 pg numero2">117</p>
+      </div>
+    </div>
+    <div class="_idGenObjectStyleOverride-15">
+      <ol start="9">
+        <li>
+          O polígono cujo número de diagonais é igual ao triplo do número de
+          lados é o:
+          <ol class="alfaParen">
+            <li>
+              <p class="normal">heptágono;</p>
+            </li>
+            <li>
+              <p class="normal">octógono;</p>
+            </li>
+            <li>
+              <p class="normal">eneágono;</p>
+            </li>
+            <li>
+              <p class="normal">decágono.</p>
+            </li>
+          </ol>
+        </li>
+        <li>
+          A medida do ângulo externo de um polígono regular é 36º. O número de
+          diagonais desse polígono é igual a:
+          <ol class="alfaParen">
+            <li>
+              <p class="normal">35</p>
+            </li>
+            <li>
+              <p class="normal">50</p>
+            </li>
+            <li>
+              <p class="normal">75</p>
+            </li>
+            <li>
+              <p class="normal">90</p>
+            </li>
+          </ol>
+        </li>
+        <li>
+          A soma das medidas dos ângulos internos de um polígono é igual a 1
+          080º. Quantas diagonais esse polígono tem?
+          <ol class="alfaParen">
+            <li>
+              <p class="normal">10</p>
+            </li>
+            <li>
+              <p class="normal">15</p>
+            </li>
+            <li>
+              <p class="normal">20</p>
+            </li>
+            <li>
+              <p class="normal">25</p>
+            </li>
+          </ol>
+        </li>
+        <li>
+          Qual das seguintes afirmações está correta?
+          <ol class="alfaParen">
+            <li>
+              O número de diagonais de um hexágono é 5.
+            </li>
+            <li>
+              O polígono regular em que a medida do ângulo externo é igual a
+              40º é o octógono.
+            </li>
+            <li>
+              A soma das medidas dos ângulos internos de um pentágono é o
+              dobro de 260º.
+            </li>
+            <li>
+              A medida do ângulo interno de um polígono regular de 12 lados é
+              150º.
+            </li>
+          </ol>
+        </li>
+        <li>
+          Na figura abaixo, as retas <span class="negrito">r</span> e
+          <span class="negrito">s</span> são paralelas. Determine a
+          medida de <span class="negrito">y</span>.
+
+          <p>
+            <img class="8" src="../../resources/images/8ANO_U5_image/U6_24.png"
+              alt="Quadrilátero irregular sobreposto a duas retas paralelas, r e s. A reta r corta o quadrilátero na parte superior formando um triângulo. A medida do ângulo oposto à base do triângulo é 60°. E o ângulo externo do lado esquerdo do triângulo com a reta r mede 130°. A reta s passa no encontro dos dois lados menores do quadriláteros, formando ângulos externos de 30° e 20°. O ângulo x do quadrilátero está localizado no vértice esquerdo do quadrilátero e o ângulo y está oposto ao x. " />
+          </p>
+        </li>
+        <li>
+          (Mackenzie-SP) Os ângulos externos de um polígono regular medem 20º.
+          Então, o número de diagonais desse polígono é:
+          <ol class="alfaParen">
+            <li>
+              <p class="normal">90</p>
+            </li>
+            <li>
+              <p class="normal">104</p>
+            </li>
+            <li>
+              <p class="normal">119</p>
+            </li>
+            <li>
+              <p class="normal">135</p>
+            </li>
+            <li>
+              <p class="normal">152</p>
+            </li>
+          </ol>
+        </li>
+        <li>
+          (ENEM) Na construção civil, é muito comum a utilização de ladrilhos
+          ou azulejos com a forma de polígonos para o revestimento de pisos ou
+          paredes. Entretanto, não são todas as combinações de polígonos que
+          se prestam a pavimentar uma superfície plana, sem que haja falhas ou
+          superposições de ladrilhos, como ilustram as figuras:
+          <div class="center">
+            <img class="9" src="../../resources/images/8ANO_U5_image/M8A_30.png" alt="Figura 1: Ilustração retangular, formada por oito linhas e oito colunas de ladrilhos acinzentados. A junção de quatro peças de ladrilhos forma um elipse, dessa forma a imagem retangular apresenta 16 elipses, simetricamente, um ao lado e abaixo do outro.
+                Figura 2: Ilustração de três heptágonos regulares encaixados pelos lados. Dois dos heptágonos estão sobrepostos.
+                Figura 3: Tabela com seis colunas e três linhas. Título das colunas: nome, figura e ângulo interno. 
+                " />
+          </div>
+
+          <p>
+            <span class="numero-questao"></span><span class="numero-questao"></span>A tabela traz uma relação de
+            alguns polígonos regulares, com as respectivas medidas de seus ângulos
+            internos.
+          </p>
+          <p>
+            <img class="0" src="../../resources/images/8ANO_U5_image/M8A_31.png" alt="Primeira coluna: triângulo, imagem da figura geométrica triângulo, 60°; 
+            Segunda coluna: quadrado, imagem da figura geométrica quadrado, 90°;
+            Terceira coluna: pentágono, imagem da figura geométrica pentágono, 108°; 
+            Quarta coluna: hexágono, imagem da figura geométrica hexágono, 120°; 
+            Quinta linha: octógono, imagem da figura geométrica octógono, 135°; 
+            Sexta coluna: eneágono, imagem da figura geométrica eneágono, 140°.
+            " />
+          </p>
+          <p>
+            Se um arquiteto deseja utilizar uma combinação de dois tipos
+            diferentes de ladrilhos entre os polígonos da tabela, sendo um deles
+            octogonal, o outro tipo escolhido deverá ter a forma de um:
+          </p>
+          <ol class="alfaParen">
+            <li>
+              <p class="normal">triângulo</p>
+            </li>
+            <li>
+              <p class="normal">quadrado</p>
+            </li>
+            <li>
+              <p class="normal">pentágono</p>
+            </li>
+            <li>
+              <p class="normal">hexágono</p>
+            </li>
+            <li>
+              <p class="normal">eneágono</p>
+            </li>
+          </ol>
+        </li>
+      </ol>
+      <i class="ri-divide-fill"></i>
+    </div>
+  </main>
+</body>
+
+</html>

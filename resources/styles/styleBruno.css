@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400&display=swap");
+
+
+.atividade{
+  color: rgb(241, 135, 22);;
+}
+.imgreal{
+    width: 300px;
+    height: 400px;
+  }
+.d-flex {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  .grid2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .textright{
+    text-align: right;
+  }
+  .iconedireita{
+    display:flex;
+    justify-content: space-between;
+  }
+  .imgicone{
+    width: 100px;
+    height: 120px;
+  }
+  .textleft{
+    text-align: left;
+  }
+  .d-flex2 {
+    display: flex;
+    align-items: right;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  .img{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.img3{
+  width: 500px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.img2{
+  width: 190px;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.textcenter{
+  text-align: center;
+}
+.LayoutDuplo{
+    display: flex;
+    gap: 2em;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .LayoutTriplo{
+    display: flex;
+    gap: 2em;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .fundoCinza{
+    background-color: rgb(236,236,238);
+    }
+    .cardTexto{
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+      font-size: 14px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    .cardFoto{
+      text-align: center;
+      display: block;
+      width: 70%;
+      border: 1px;
+      margin: 10%;
+      border: 1px solid rgb(249, 176, 0);
+      border-radius: 10px;
+      background-color: rgb(254, 236, 205);
+    }    
+    .cardFotosalmao{
+      text-align: center;
+      display: block;
+      width: 70%;
+      border: 1px;
+      margin: 10%;
+      border: 1px solid rgb(249, 176, 0);
+      border-radius: 10px;
+      background-color: rgb(254, 236, 205);
+    }

@@ -1,0 +1,839 @@
+/* 
+[ PETERSON SENHA ]
+Padronização dos títulos 
+*/
+@page {
+
+}
+@font-face {
+  font-family: ACaslonProRegular;
+  src: url("../fonts/ACaslonPro-Regular.otf");
+}
+@font-face {
+  font-family: AddledRegular;
+  src: url("../fonts/addled-regular.ttf");
+}
+@font-face {
+  font-family: Akbar;
+  src: url("../fonts/akbar.TTF");
+}
+@font-face {
+  font-family: AmateurComic;
+  src: url("../fonts/AmateurComic.ttf");
+}
+@font-face {
+  font-family: AndaleMono;
+  src: url("../fonts/andale-mono.ttf");
+}
+@font-face {
+  font-family: ArialBoldItalic;
+  src: url("../fonts/Arial\ Bold\ Italic.ttf");
+}
+@font-face {
+  font-family: ArialBold;
+  src: url("../fonts/Arial\ Bold.ttf");
+}
+@font-face {
+  font-family: ArialItalic;
+  src: url("../fonts/Arial\ Italic.ttf");
+}
+@font-face {
+  font-family: ArialNarrow;
+  src: url("../fonts/Arial\ Narrow.ttf");
+}
+@font-face {
+  font-family: Arial;
+  src: url("../fonts/Arial.ttf");
+}
+@font-face {
+  font-family: AvantGardeMdBT;
+  src: url("../fonts/AvantGarde\ Md\ BT.ttf");
+}
+@font-face {
+  font-family: AvenirNext;
+  src: url("../fonts/Avenir\ Next.ttc");
+}
+@font-face {
+  font-family: AVGARDM;
+  src: url("../fonts/AVGARDM.TTF");
+}
+@font-face {
+  font-family: Baskerville;
+  src: url("../fonts/Baskerville.ttc");
+}
+@font-face {
+  font-family: CalibriBoldItalic;
+  src: url("../fonts/Calibri\ Bold\ Italic.ttf");
+}
+@font-face {
+  font-family: CalibriBold;
+  src: url("../fonts/Calibri\ Bold.ttf");
+}
+@font-face {
+  font-family: Calibri;
+  src: url("../fonts/Calibri.ttf");
+}
+@font-face {
+  font-family: Chalkduster;
+  src: url("../fonts/Chalkduster.ttf");
+}
+@font-face {
+  font-family: DimboItalic;
+  src: url("../fonts/Dimbo\ Italic.ttf");
+}
+@font-face {
+  font-family: DimboRegular;
+  src: url("../fonts/Dimbo\ Regular.ttf");
+}
+@font-face {
+  font-family: duprl;
+  src: url("../fonts/duprl___.ttf");
+}
+@font-face {
+  font-family: fawn;
+  src: url("../fonts/fawn.ttf");
+}
+@font-face {
+  font-family: Herculanum;
+  src: url("../fonts/Herculanum.ttf");
+}
+@font-face {
+  font-family: LucidaGrande;
+  src: url("../fonts/LucidaGrande.ttc");
+}
+@font-face {
+  font-family: MinionProRegular;
+  src: url("../fonts/MinionPro-Regular.otf");
+}
+@font-face {
+  font-family: PTSans;
+  src: url("../fonts/PTSans.ttc");
+}
+@font-face {
+  font-family: Symbol;
+  src: url("../fonts/SYMBOL.TTF");
+}
+@font-face {
+  font-family: TimesNewRoman;
+  src: url("../fonts/Times\ New\ Roman.ttf");
+}
+@font-face {
+  font-family: Timersr;
+  src: url("../fonts/TIMESR.ttf");
+}
+@font-face {
+  font-family: Wingdings3;
+  src: url("../fonts/Wingdings\ 3.ttf");
+}
+h1{
+  font-family: Calibri;
+  color: rgb(0,128,200);
+  font-size: 24pt;
+}
+h2{
+  font-family: Calibri;
+  color: rgb(0,0,0);
+  font-size: 24pt;
+}
+h2.titulo {
+  color: rgb(0, 0, 0);
+}
+h4{
+  font-family: Calibri;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 13pt;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+main{
+  scroll-behavior: smooth;
+}
+/* ------------I C O N E S -------------------------*/
+/*Classe que agrupa um ícone a esqueda e o texto a direita */
+div.bil{
+  display: grid;
+  grid-template-columns: 5vw 60vw;
+  gap: 10vw;
+  
+}
+div.bir{
+  display: grid;
+  grid-template-columns: 70vw 10vw;
+  gap: 2px;
+  justify-content: space-between;
+}
+/* ------------I N T R O D U Ç Ã O-------------------------*/
+#intro ol li::marker{
+  color: rgb(0,128,200)!important;
+  padding: 1rem;
+  list-style-type: decimal!important;
+}
+.cardIntro {
+  text-align: center;
+  display: block;
+  width: 70%;
+  border: 1px;
+  margin: 10%;
+}
+div.boxconverse{
+  margin-left: 18vw;
+}
+p.converse{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: block;
+  font-size: 2vh;
+  color: #575756;
+  background-image: url(../images/converse2.jpg);
+  background-size: cover;
+  height: 12vh;
+  text-align: center;
+}
+p.encontresolucoes{
+  font-family: 'Calibri';
+  display: block;
+  font-size: 2vh;
+  color: #575756;
+  background-image: url("../images/encontrebg.png");
+  background-size: cover;
+  height: 12vh;
+  text-align: left;
+}
+
+
+img.converse{
+  display: block;
+  height: auto;
+  width: 100vw;
+  margin:0;
+  padding: 0;
+  border: 0;
+  position: relative;
+}
+.converse {
+  display: block;
+  width: 1fr;
+  margin: 0% !important;
+  padding: 0%;
+  text-align: left !important;
+  align-items: left;
+}
+/*-------------  P  A  G  I  N  A  Ç  Ã  O ---------------*/
+@page{
+  counter-increment: list;
+	content: counter(list, lower-alpha) ") ";
+}
+.numero2 {
+  padding: 10px 18px 10px 18px;
+  margin-left: 20%;
+  background: rgb(249, 176, 0);
+  border-top: solid rgb(254, 211, 141) 6px;
+  display: inline-block;
+  color: #fff;
+  page-break-before: auto;
+  text-align: right;
+  text-align-last: right;
+  align-self: right;
+}
+/*-------------G R I D S ---------------*/
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2px;
+  justify-content: space-between;
+}
+.iconedireita {
+  display: flex;
+  justify-content: space-between;
+}
+.d-flex2 {
+  padding: 1rem;
+  display: flex;
+  align-items: right;
+  gap: 1rem;
+  justify-content: space-between;
+}
+/*-------------C A R T Õ E S ---------------*/
+.card {
+  position: relative;
+  top: 0;
+  margin-left: 10%;
+  border: 1px solid rgb(249, 176, 0);
+  border-radius: 3px;
+  background-color: rgb(254, 236, 205);
+}
+.cardTexto {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.cardFoto {
+  text-align: justify;
+  display: block;
+  width: 70%;
+  border: 1px;
+  margin: 5%;
+  padding: 1rem;
+  /*border: 1px solid rgb(249, 176, 0);*/
+  border-radius: 10px;
+  background-color: rgb(254, 236, 205);
+}
+.cardInfo{
+  background-color: rgb(254, 236, 205);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+details{
+  background-color: rgb(254, 236, 205);
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 2px solid;
+}
+summary{
+  text-align: center;
+  cursor: pointer;
+  text-decoration: wavy;
+}
+summary:hover{
+  font-size: 1.2rem;
+}
+
+/*-------------I  M  A  G  E  N  S ---------------*/
+figcaption{
+  color:#575756;
+	font-family:Arial, sans-serif;
+	font: size 9pt;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.333;
+	margin-bottom:6px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:3px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:justify;
+	text-align-last:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+div.boxgray{
+  background-color:#e3e3e3;
+	border-width:0px;
+}
+img.imginline{
+  display: inline;
+  width: 6rem;
+}
+dt{
+  color: rgb(0,128,200);
+  font-weight: bold;
+}
+dd{
+  display: inline;
+}
+
+.destaqueIntro{
+  border-bottom: 2px solid rgb(0,128,200);
+  margin: 20px 0 20px 0;
+  font-weight: bold;
+}
+.destaque{
+  border-bottom: 2px solid rgb(241, 135, 22);
+  margin: 20px 0 20px 0;
+  font-weight: bold;
+}
+img{
+  display: block;
+  text-align: center;
+  width: 80vw;
+  height: auto;
+}
+img.igeo{
+  display: inline;
+  width:5%;
+}
+.img {
+  width: 500px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.imgicone {
+  width: 100px;
+  height: 120px;
+}
+.imginter {
+  text-align: center;
+  width: 90vw;
+  height: auto;
+}
+.imginter:hover {
+  size: 1.2;
+}
+.imgreal {
+  display: block;
+  text-align: center;
+  width: 70%;
+  height: auto;
+}
+.imgred {
+  width: 300px !important;
+  height: 300px !important;
+}
+.professorpg113 {
+  width: 50%;
+  height: 50%;
+}
+img.imagemparalela{
+  width: 30vw;
+}
+img.imagemparalela{
+  width: 30vw;
+}
+img.float-left{
+  float:left;
+}
+.imgrigth {
+  width: 500px;
+  height: 400px;
+}
+/*--------RPH-------------*/
+.capa img {
+  max-width: 70vw;
+}
+.fundoIntro2_2{
+  background-image: url("../../resources/images/8ANO_U2_image/M8A_8_ano_mat_P_44_Palmas_tocantins_31.jpg");
+  background-size: cover;
+}
+a.Glossario{
+  text-decoration: underline 3px rgb(241, 135, 22);
+  margin:0;
+  padding: 0;
+  border-bottom: 3px solid rgb(241, 135, 22);
+  color:rgb(0, 0, 0);
+}
+/*-------------A L I N H A M E N T O ---------------*/
+.indent {
+  text-indent: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+.textright {
+  text-align: right;
+}
+.center {
+  text-align: center;
+  align-items: center;
+}
+.right {
+  text-align: right!important;
+  /*float: right;*/
+}
+.textleft {
+  text-align: left;
+}
+.textcenter {
+  text-align: center;
+}
+.negrito {
+  font-weight: bold;
+}
+div.box-right{
+  align-items: right;
+  width: 40vw;
+  font-size: 60%;
+}
+/*-------------C O L O R A Ç Ã O ---------------*/
+.laranja {
+  color: rgb(241, 135, 22);
+}
+.amarelo {
+  color: rgb(249, 176, 0);
+  font-size: 12px;
+}
+.normal {
+  color: black;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  text-indent: 0;
+  /*font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	/*line-height:1.25;*/
+  /*list-style-position:outside;*/
+  /*margin-bottom:3px;*/
+  /*margin-left:48px;*/
+  /*margin-right:0;
+	/*margin-top:0;
+	/*orphans:1;*/
+  /*text-align:justify;
+	text-align-last:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	/*widows:1;*/
+}
+.atividade {
+  color: rgb(241, 135, 22);
+}
+.fundoCinza {
+  background-color: rgb(236, 236, 238);
+}
+math {
+  width: 60vw;
+  direction: ltr;
+  writing-mode: horizontal-tb;
+  text-indent: 0;
+  letter-spacing: normal;
+  line-height: normal;
+  word-spacing: normal;
+  font-family: math;
+  font-size: inherit;
+  font-style: normal;
+  font-weight: normal;
+  display: inline math;
+  /*math-shift: normal;
+  math-style: compact;
+  /*math-depth: 0;*/
+}
+/*-------------------L A Y O U T ---------------*/
+.layoutUnico {
+  display: block;
+  width: 70vw;
+  margin: 0;
+  padding: 0;
+}
+.LayoutDuplo {
+  display: flex;
+  gap: 2em;
+  grid-template-columns: repeat(2, 1fr);
+}
+.LayoutTriplo {
+  display: flex;
+  gap: 2em;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/*-----------------T A B E L A S ---------------------*/
+p{
+  font-family: Arial;
+  font-size: 3rem;
+  margin: 1rem;
+}
+li{
+  font-family: Arial;
+  font-size: 1rem;
+  padding: .2rem;
+  margin-right: 1rem;
+}
+ol li{
+  font-family: Arial;
+  font-size: 1rem;
+  padding: .2rem;
+}
+ol li::marker{
+  color: rgb(241, 135, 22);
+  padding: 1rem;
+  list-style-type: decimal!important;
+}
+
+ul li::marker{
+  content: "►";
+  color: rgb(241, 135, 22);
+  font-weight: bold;
+  padding: 1rem;
+}
+ol.alfaParen {
+	counter-reset: list;
+}
+ol.alfaParen > li {
+	list-style: none;
+	position: relative;
+}
+ol.alfaParen > li:before {
+	counter-increment: list;
+	content: counter(list, lower-alpha) ") ";
+	position: absolute;
+	left: -1.4em;
+  color: rgb(241, 135, 22);
+}
+
+
+.texto-bullet {
+  color: #000000;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /*line-height:1.25;*/
+  /*list-style-position:outside;*/
+  /*margin-bottom:3px;*/
+  /*margin-left:48px;*/
+  margin-right: 0;
+  margin-top: 0;
+  /*orphans:1;*/
+  text-align: justify;
+  text-align-last: left;
+  text-decoration: none;
+  text-indent: 0;
+  text-transform: none;
+  /*widows:1;*/
+}
+.interacaohover {
+  opacity: 1;
+}
+.interacaohover:hover {
+  opacity: 0.1;
+}
+p{
+  font-family: Arial;
+  font-size: 12pt;
+  text-indent: 2rem;
+}
+p.semrecuo{
+  text-indent: 0;
+}
+
+.imgInfografico{
+  cursor:pointer;
+  max-width: 50%!important;
+}
+hr{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  border-top: rgb(249, 176, 0) 1.5rem solid;
+  border-bottom: rgb(236, 236, 238) .8rem solid;
+  background-color:rgb(249, 176, 0);
+}
+.center-center{
+  display: block;
+  text-align: center;
+  margin: 1rem;
+}
+/*
+[Peterson Senha: 03/09/2022 - 19:31]
+CSS Automático: aproveitar o código depois!
+*/
+strong{
+  font-weight: bold;
+}
+p.legenda {
+	color:#575756;
+	font-family:Arial, sans-serif;
+	font-size:9px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.333;
+	margin-bottom:6px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:3px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.fonte {
+	color:#000000;
+	font-family:Arial, sans-serif;
+	font-size:9px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.5;
+	margin-bottom:6px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:right;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+#liparalelo ol li{
+  display: flex;
+}
+dd{
+  text-indent: 1rem;
+}
+table.half{
+  width: 50vw;
+  display: block;
+  justify-content: center;
+}
+thead{
+  background-color: rgb(241, 135, 22);
+  justify-content: space-around;
+}
+td{
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  
+}
+td.right{
+  text-align: right;
+}
+td.left{
+  text-align: left;
+  border-left: 1px solid rgb(0,0, 0);
+}
+.div{
+  border: 1px solid rgb(0,0, 0);
+}
+ul.paralelo{
+  display: flex;
+  width: 70vw;
+  justify-content: space-between;
+}
+ul.sembullet{
+  list-style: none!important;
+  list-style-type: none!important;
+}
+ol.alfaParen {
+	counter-reset: list;
+}
+ol.alfaParen > li {
+	list-style: none;
+	position: relative;
+}
+ol.alfaParen > li:before {
+	counter-increment: list;
+	content: counter(list, lower-alpha) ") ";
+	position: absolute;
+	left: -1.4em;
+  color: rgb(241, 135, 22);
+}
+ol.alfaParen2 {
+	counter-reset: list2;
+  display: flex;
+  width: 70vw;
+  justify-content: space-between;
+}
+ol.alfaParen2 > li {
+	list-style: none;
+	position: relative;
+}
+ol.alfaParen2 > li:before {
+	counter-increment: list2;
+	content: counter(list2, lower-alpha) ") ";
+	position: absolute;
+	left: -1.4em;
+  color: rgb(241, 135, 22);
+}
+ol.Uroman{
+  list-style-type: upper-roman;
+}
+.carousel_visible {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+.card-com-fundo-cinza {
+  background-color: #F1F1F1;
+  margin: 0rem;
+}
+h1{
+  font-family: Calibri;
+  color: rgb(0,128,200);
+  font-size: 24pt;
+  text-align: center;
+  margin: 2rem;
+}
+h2{
+  font-family: Calibri;
+  color: rgb(0,0,0);
+  font-size: 24pt;
+}
+h2.titulo {
+  color: rgb(0, 0, 0);
+}
+h3{
+  font-family: Calibri;
+  color: rgb(255,173,0);
+  font-size: 14pt;
+  font-weight: bold;
+}
+h4{
+  font-family: Calibri;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 13pt;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+img.icone{
+  width: 10vw;
+}
+.center-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  margin: 5%;
+  width: 90vw;
+  text-align: justify;
+}
+div.box-simple{
+  border: 1px solid rgb(0,0,0);
+  padding:2rem;
+}
+p.ta-right{
+  text-align: right;
+}
+p.mb-1rem{
+  margin-bottom: 1rem;
+}
+p.text-blue{
+  font-family: Arial;
+  font-size: 12pt;
+  font-weight: bold;
+  color: rgb(0,128,200);
+}
+b.center{
+  text-align: center;
+}
+span.negrito{
+  font-weight: bold;
+}
+a.sumario01{
+  display: block;
+  text-align: justify;
+  text-indent: 2rem;
+}
+a.sumario02{
+  display: block;
+  text-align: justify;
+  text-indent: 3rem;
+}
+a.sumario00{
+  display: block;
+  text-align: justify;
+}

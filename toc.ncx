@@ -1,0 +1,439 @@
+</body>
+    </html>
+        <navmap>
+        <navPoint id="U1" class="unidade" playOrder="1">
+            <NavLabel><text>Unidade 1 - Conjuntos Numéricos</text></NavLabel>
+            <content scr="content/unidade1/capitulo1.html"/>
+            <navPoint id="U1C1" class="capitulo" playOrder="2">
+            <NavLabel><text>Capítulo 1 - Ampliando o estudo sobre os números naturais, inteiros e racionais</text></NavLabel>
+            <content scr="content/unidade1/capitulo1.html"/>
+            <navPoint id="U1C1S1" class="subcapitulo" playOrder="3">
+                <NavLabel><text>Conjuntos dos números, inteiros e racionais </text></NavLabel>
+                <content scr="content/unidade1/capitulo1.html"/>
+            </navPoint>
+            <navPoint id="U1C1S2" class="subcapitulo" playOrder="4">
+                <NavLabel><text>Função Geratriz</text></NavLabel>
+                <content scr="content/unidade1/capitulo1.html"/>
+            </navPoint>  
+            </navPoint>
+            <navPoint id="U1C2" class="capitulo" playOrder="5">
+            <NavLabel><text>Capítulo 2 - Potenciação e propriedades</text></NavLabel>
+            <content scr="content/unidade1/capitulo2.html"/>
+            </navPoint>
+            <navPoint id="U1C2S1" class="subcapitulo" playOrder="6">
+                <NavLabel><text>Expoente inteiro</text></NavLabel>
+                <content scr="content/unidade1/capitulo2.html"/>
+            </navPoint>
+            <navPoint id="U1C2S2" class="subcapitulo" playOrder="7">
+                <NavLabel><text>Propriedades da potenciação</text></NavLabel>
+                <content scr="content/unidade1/capitulo2.html"/>
+            </navPoint>
+            </navPoint>
+            <navPoint id="U1C3" class="capitulo" playOrder="8">
+                <NavLabel><text>Unidade 3 - Potenciação e propriedades</text></NavLabel>
+                <content scr="content/unidade1/capitulo3.html"/>
+            </navPoint>
+            <navPoint id="U1C3S1" class="subcapitulo" playOrder="9">
+                <NavLabel><text>Potências de base 10</text></NavLabel>
+                <content scr="content/unidade1/capitulo3.html"/>
+            </navPoint>
+            <navPoint id="U1C3S2" class="subcapitulo" playOrder="10">
+                <NavLabel><text>Notação científica</text></NavLabel>
+                <content scr="content/unidade1/capitulo3.html"/>
+            </navPoint>
+            <navPoint id="U1C3S3" class="subcapitulo" playOrder="11">
+                <NavLabel><text>Números quadrados perfeitos</text></NavLabel>
+                <content scr="content/unidade1/capitulo3.html"/>
+            </navPoint>
+            <navPoint id="U1C3S4" class="subcapitulo" playOrder="12">
+                <NavLabel><text>Raíz quadrada exata</text></NavLabel>
+                <content scr="content/unidade1/capitulo3.html"/>
+            </navPoint>
+            <navPoint id="U1C3S5" class="subcapitulo" playOrder="13">
+                <NavLabel><text>Raízes quadradas não exatas</text></NavLabel>
+                <content scr="content/unidade1/capitulo3.html"/>
+            </navPoint>
+            <navPoint id="U1C3PROB" class="subcapitulo" playOrder="14">
+                <NavLabel><text><b>Probabilidade e estatística</b>- Porcentagem</text></NavLabel>
+                <content scr="content/unidade1/capitulo3.html"/>
+            </navPoint>
+            <navPoint id="U1C3REL" class="subcapitulo" playOrder="15">
+                <NavLabel><text><b>Relembre</b></text></NavLabel>
+                <content scr="content/unidade1/capitulo3.html"/>
+            </navPoint>
+            </navPoint>
+        <navPoint id="U2" class="unidade" playOrder="16">
+            <NavLabel><text>Unidade 2 - Retas e Ângulos</text></NavLabel>
+            <content scr="content/unidade1/capitulo1.html"/>
+            <navPoint id="U2C1" class="capitulo" playOrder="17">
+                <NavLabel><text>Capítulo 1 - Construções geométricas</text></NavLabel>
+                <content scr="content/unidade2/capitulo1.html"/>
+            </navPoint>
+            <navPoint id="U2C1S1" class="subcapitulo" playOrder="18">
+                <NavLabel><text>Retas paralelas</text></NavLabel>
+                <content scr="content/unidade2/capitulo1.html"/>
+            </navPoint>
+            </navPoint>
+            <navPoint id="U2C1S2" class="subcapitulo" playOrder="19">
+                <NavLabel><text>retas perpenticulares</text></NavLabel>
+                <content scr="content/unidade2/capitulo1.html"/>
+            </navPoint>
+            </navPoint>
+            <navPoint id="U2C1S3" class="subcapitulo" playOrder="20">
+                <NavLabel><text>Ponto médio e mediatriz de um segmento</text></NavLabel>
+                <content scr="content/unidade2/capitulo1.html"/>
+            </navPoint>
+            </navPoint>
+            <navPoint id="U2C2" class="capitulo" playOrder="21">
+            <NavLabel><text>Capítulo 2 - Ângulos</text></NavLabel>
+            <content scr="content/unidade2/capitulo2.html"/>
+            </navPoint>
+            <navPoint id="U2C2S1" class="subcapitulo" playOrder="22">
+            <NavLabel><text>Recordando ângulos</text></NavLabel>
+            <content scr="content/unidade2/capitulo2.html"/>
+            </navPoint>
+            <navPoint id="U2C2S2" class="capitulo" playOrder="23">
+            <NavLabel><text>Capítulo 3 - Transformações geométricas</text></NavLabel>
+            <content scr="content/unidade2/capitulo2.html"/>
+            </navPoint>
+            <navPoint id="U2C2PROB" class="subcapitulo" playOrder="24">
+            <NavLabel><text><b>Propabilidade e estatística</b>- Planejando e executando uma pesquisa amostral</text></NavLabel>
+            <content scr="content/unidade2/capitulo2.html"/>
+            </navPoint>
+            <navPoint id="U2C2REL" class="subcapitulo" playOrder="25">
+            <NavLabel><text>Relembre</text></NavLabel>
+            <content scr="content/unidade2/capitulo2.html"/>
+            </navPoint>
+        </navPoint>
+        <navPoint id="U3C1" class="capitulo" playOrder="26">
+            <NavLabel><text>Unidade 3 - Monômios e polinômios</text></NavLabel>
+            <content scr="content/unidade3/capitulo1.html"/>
+            <navPoint id="U3C1" class="unidade" playOrder="27">
+            <NavLabel><text>Capítulo 1 - Expressões algébricas</text></NavLabel>
+            <content scr="content/unidade3/capitulo1.html"/>
+            </navPoint>
+            <navPoint id="U3C1S1" class="unidade" playOrder="28">
+            <NavLabel><text>Capítulo 2 - Monômios</text></NavLabel>
+            <content scr="content/unidade3/capitulo2.html"/>
+            </navPoint>
+            <navPoint id="U3C2S2" class="subcapitulo" playOrder="29">
+            <NavLabel><text>Grau de um Monômio</text></NavLabel>
+            <content scr="content/unidade3/capitulo2.html"/>
+            </navPoint>
+            <navPoint id="U3C2S3" class="subcapitulo" playOrder="30">
+            <NavLabel><text>Monômios semelhantes</text></NavLabel>
+            <content scr="content/unidade3/capitulo2.html"/>
+            </navPoint>
+            <navPoint id="U3C2S4" class="subcapitulo" playOrder="31">
+            <NavLabel><text>Operações com Monômios</text></NavLabel>
+            <content scr="content/unidade3/capitulo2.html"/>
+            </navPoint>
+            <navPoint id="U3C3" class="capitulo" playOrder="32">
+            <NavLabel><text>Capítulo 3 - polinômios</text></NavLabel>
+            <content scr="content/unidade3/capitulo3.html"/>
+            </navPoint>
+            <navPoint id="U3C3S1" class="subcapitulo" playOrder="33">
+            <NavLabel><text>Redução de termos semelhantes</text></NavLabel>
+            <content scr="content/unidade3/capitulo3.html"/>
+            </navPoint>
+            <navPoint id="U3C3S2" class="subcapitulo" playOrder="34">
+            <NavLabel><text>Grau de um polinômio</text></NavLabel>
+            <content scr="content/unidade3/capitulo3.html"/>
+            </navPoint>
+            <navPoint id="U3C3S3" class="subcapitulo" playOrder="35">
+            <NavLabel><text>Operações com polinômios</text></NavLabel>
+            <content scr="content/unidade3/capitulo3.html"/>
+            </navPoint>
+            <navPoint id="U3C4" class="capitulo" playOrder="36">
+            <NavLabel><text>Capítulo 4 - Sequências</text></NavLabel>
+            <content scr="content/unidade3/capitulo4.html"/>
+            </navPoint>
+            <navPoint id="U3C4PROB" class="subcapitulo" playOrder="37">
+            <NavLabel><text><b>Probabilidade e estatística</b> - Interpretação e construção de gráficos</text></NavLabel>
+            <content scr="content/unidade3/capitulo4.html"/>
+            </navPoint> 
+            <navPoint id="U3C4REL" class="subcapitulo" playOrder="38">
+            <NavLabel><text><b>Relembre</b>></text></NavLabel>
+            <content scr="content/unidade3/capitulo4.html"/>
+            </navPoint>
+        </navPoint>
+        <navPoint id="" class="unidade" playOrder="39">
+            <NavLabel><text>Unidade 4 - Medidas de superfície e de volume</text></NavLabel>
+            <content scr="content/unidade1/capitulo1.html"/>
+            <navPoint id="U4C1" class="capitulo" playOrder="40">
+            <NavLabel><text>Capítulo 1 - Cálculo da área de figuras planas</text></NavLabel>
+            <content scr="content/unidade3/capitulo1.html"/>
+            </navPoint>
+            <navPoint id="U4C2" class="capitulo" playOrder="41">
+            <NavLabel><text>Capítulo 2 - Cálculo do volume de sólidos geométricos</text></NavLabel>
+            <content scr="content/unidade3/capitulo1.html"/>
+            </navPoint>
+            <navPoint id="U4CPROB" class="subcapitulo" playOrder="42">
+            <NavLabel><text><b>Probabilidade e estatística</b></text> - Variáveis em pesquisa</NavLabel>
+            <content scr="content/unidade3/capitulo1.html"/>
+            </navPoint>
+            <navPoint id="U4C2REL" class="subcapitulo" playOrder="43">
+            <NavLabel><text><b>Relembre</b>></text></NavLabel>
+            <content scr="content/unidade3/capitulo1.html"/>
+            </navPoint>
+        </navPoint>
+        <navPoint id="U5C1" class="capitulo" playOrder="44">
+            <NavLabel><text>Unidade 5 - Ângulos e diagonais de um polígono</text></NavLabel>
+            <content scr="content/unidade5/capitulo1.html"/>
+            <navPoint id="U5C1" class="unidade" playOrder="45">
+            <NavLabel><text>Capítulo 1 - Ângulos de um polígono</text></NavLabel>
+            <content scr="content/unidade5/capitulo1.html"/>
+            </navPoint>
+            <navPoint id="U3C1S1" class="subcapitulo" playOrder="46">
+            <NavLabel><text>Soma das medidas dos ângulos internos de um polígono</text></NavLabel>
+            <content scr="content/unidade5/capitulo1.html"/>
+            </navPoint>
+            <navPoint id="U5C1" class="subcapitulo" playOrder="47">
+            <NavLabel><text>Soma das medidas dos ângulos externos de um polígono</text></NavLabel>
+            <content scr="content/unidade5/capitulo1.html"/>
+            </navPoint>
+            <navPoint id="U5C2" class="capitulo" playOrder="48">
+            <NavLabel><text>Capítulo 2 - Números de diagonais de um polígono convexo</text></NavLabel>
+            <content scr="content/unidade5/capitulo2.html"/>
+            </navPoint>
+            <navPoint id="U5C2PROB" class="subcapitulo" playOrder="49">
+            <NavLabel><text><b>Probabilidade e estatística</b> - Medidas de tendência central e de dispersão</text></NavLabel>
+            <content scr="content/unidade5/capitulo2.html"/>
+            </navPoint>
+            <navPoint id="U5C2REL" class="subcapitulo" playOrder="50">
+            <NavLabel><text><b>Relembre</b></text></NavLabel>
+            <content scr="content/unidade6/capitulo1.html"/>
+            </navPoint>
+        </navPoint>
+        <navPoint id="ncx1" class="unidade" playOrder="51">
+            <NavLabel><text>Unidade 6 - Fraçôes algébricas e equações</text></NavLabel>
+            <content scr="content/unidade1/capitulo1.html"/>
+            <navPoint id="U6C1" class="capitulo" playOrder="52">
+            <NavLabel><text>Capítulo 1 - Frações algébricas</text></NavLabel>
+            <content scr="content/unidade6/capitulo1.html"/>
+            </navPoint>
+            <navPoint id="U6C1S1" class="subcapitulo" playOrder="53">
+            <NavLabel><text>Simplificação de frações algébricas</text></NavLabel>
+            <content scr="content/unidade6/capitulo1.html"/>
+            </navPoint>
+            <navPoint id="U6C2" class="capitulo" playOrder="54">
+            <NavLabel><text>Capítulo 2 - Operações com frações algébricas</text></NavLabel>
+            <content scr="content/unidade6/capitulo2.html"/>
+            </navPoint>
+            <navPoint id="U6C2S1" class="subcapitulo" playOrder="55">
+            <NavLabel><text>Minimo múltiplo comim entre polinômios</text></NavLabel>
+            <content scr="content/unidade6/capitulo2.html"/>
+            </navPoint>
+            <navPoint id="U6C2S2" class="subcapitulo" playOrder="56">
+            <NavLabel><text>Adição e subtração com frações algébricas</text></NavLabel>
+            <content scr="content/unidade6/capitulo2.html"/>
+            </navPoint>
+            <navPoint id="U6C2S3" class="subcapitulo" playOrder="57">
+            <NavLabel><text>Multiplicação e divisão com frações algébricas</text></NavLabel>
+            <content scr="content/unidade6/capitulo2.html"/>
+            </navPoint>
+            <navPoint id="U6C3" class="capitulo" playOrder="58">
+            <NavLabel><text>Capítulo 3 - Equações</text></NavLabel>
+            <content scr="content/unidade6/capitulo3.html"/>
+            </navPoint>
+            <navPoint id="U6C3S1" class="subcapitulo" playOrder="59">
+            <NavLabel><text>Equações do 1.º grau</text></NavLabel>
+            <content scr="content/unidade6/capitulo3.html"/>
+            </navPoint>
+            <navPoint id="U6C3S2" class="subcapitulo" playOrder="60">
+            <NavLabel><text>Equações fracionários com uma incógnita</text></NavLabel>
+            <content scr="content/unidade6/capitulo3.html"/>
+            </navPoint>
+            <navPoint id="U6C3S3" class="subcapitulo" playOrder="61">
+            <NavLabel><text>Equações literais</text></NavLabel>
+            <content scr="content/unidade6/capitulo3.html"/>
+            </navPoint>
+            <navPoint id="U6C3S4" class="subcapitulo" playOrder="62">
+            <NavLabel><text>Equações do 1.º grau com 2 incógnitas</text></NavLabel>
+            <content scr="content/unidade6/capitulo3.html"/>
+            </navPoint>
+            <navPoint id="U6C4" class="capitulo" playOrder="63">
+            <NavLabel><text>Capítulo 4 - Proporcionalidade</text></NavLabel>
+            <content scr="content/unidade6/capitulo4.html"/>
+            </navPoint>
+            <navPoint id="U6C4S1" class="subcapitulo" playOrder="64">
+            <NavLabel><text>Representação gráfica</text></NavLabel>
+            <content scr="content/unidade6/capitulo4.html"/>
+            </navPoint>
+            <navPoint id="U6C4PROB" class="subcapitulo" playOrder="65">
+            <NavLabel><text><b>Probabilidade e estatística</b> - Interpretação de gráficos</text></NavLabel>
+            <content scr="content/unidade6/capitulo4.html"/>
+            </navPoint>
+            <navPoint id="U6C4REL" class="subcapitulo" playOrder="66">
+            <NavLabel><text><b>Relembre</b></text></NavLabel>
+            <content scr="content/unidade6/capitulo4.html"/>
+            </navPoint>
+        </navPoint>
+        <navPoint id="U7" class="unidade" playOrder="67">
+            <NavLabel><text>Unidade 7 - Triângulos e quadrados</text></NavLabel>
+            <content scr="content/unidade1/capitulo1.html"/>
+            <navPoint id="U7C1" class="capitulo" playOrder="68">
+            <NavLabel><text>Capítulo 1 - Triângulos</text></NavLabel>
+            <content scr="content/unidade7/capitulo1.html"/>
+            </navPoint>
+            <navPoint id="U7C1" class="subcapitulo" playOrder="69">
+            <NavLabel><text>Elementos e classificação dos triângulos</text></NavLabel>
+            <content scr="content/unidade7/capitulo1.html"/>
+            </navPoint>
+            <navPoint id="U7C1" class="subcapitulo" playOrder="70">
+            <NavLabel><text>Condição de existência de um triângulo</text></NavLabel>
+            <content scr="content/unidade7/capitulo1.html"/>
+            </navPoint>
+            <navPoint id="U7C1" class="subcapitulo" playOrder="71">
+            <NavLabel><text>Soma das medidas dos ângulos internos de um triângulo</text></NavLabel>
+            <content scr="content/unidade7/capitulo1.html"/>
+            </navPoint>
+            <navPoint id="U7C1" class="subcapitulo" playOrder="72">
+            <NavLabel><text>Relação entre a medida de um ângulo externo e as medidas dois ângulos internos não adjacentes a ele</text></NavLabel>
+            <content scr="content/unidade7/capitulo1.html"/>
+            </navPoint>
+            <navPoint id="U7C1" class="subcapitulo" playOrder="73">
+            <NavLabel><text>Bissetrizes e incentro</text></NavLabel>
+            <content scr="content/unidade7/capitulo1.html"/>
+            </navPoint>
+            <navPoint id="U7C1" class="subcapitulo" playOrder="74">
+            <NavLabel><text>Alturas e ortocentro</text></NavLabel>
+            <content scr="content/unidade7/capitulo1.html"/>
+            </navPoint>
+            <navPoint id="U7C1" class="subcapitulo" playOrder="75">
+            <NavLabel><text>Medianas e baricentro</text></NavLabel>
+            <content scr="content/unidade7/capitulo1.html"/>
+            </navPoint>
+            <navPoint id="U7C1" class="subcapitulo" playOrder="76">
+            <NavLabel><text>Casos de congruência de triângulos</text></NavLabel>
+            <content scr="content/unidade7/capitulo1.html"/>
+            </navPoint>
+            <navPoint id="U7C2" class="capitulo" playOrder="77">
+            <NavLabel><text>Capítulo 2 - Quadriláteros</text></NavLabel>
+            <content scr="content/unidade7/capitulo2.html"/>
+            </navPoint>
+            <navPoint id="U7C2" class="subcapitulo" playOrder="78">
+            <NavLabel><text>Elementos e classificação dos quadriláteros</text></NavLabel>
+            <content scr="content/unidade7/capitulo2.html"/>
+            </navPoint>
+            <navPoint id="U7C2" class="subcapitulo" playOrder="79">
+            <NavLabel><text>Propriedades dos paralelogramos</text></NavLabel>
+            <content scr="content/unidade7/capitulo2.html"/>
+            </navPoint>
+            <navPoint id="U7C2" class="subcapitulo" playOrder="80">
+            <NavLabel><text>propriedades dos trapézios isósceles</text></NavLabel>
+            <content scr="content/unidade7/capitulo2.html"/>
+            </navPoint>
+            <navPoint id="U7C2PROB" class="subcapitulo" playOrder="81">
+            <NavLabel><text><b>Probabilidade e estatística</b> - Interpretação de gráficos</text></NavLabel>
+            <content scr="content/unidade7/capitulo2.html"/>
+            </navPoint>
+            <navPoint id="U7C2REL" class="subcapitulo" playOrder="82">
+            <NavLabel><text><b>Relembre</b></text></NavLabel>
+            <content scr="content/unidade7/capitulo2.html"/>
+            </navPoint>
+        </navPoint>
+        <navPoint id="U8" class="unidade" playOrder="83">
+            <NavLabel><text>Unidade 8 - Sistemas e equações</text></NavLabel>
+            <content scr="content/unidade8/capitulo1.html"/>
+            <navPoint id="U8" class="capitulo" playOrder="84">
+            <NavLabel><text>Capítulo 1 - Equações com duas incógnitas</text></NavLabel>
+            <content scr="content/unidade8/capitulo1.html"/>
+            </navPoint>
+            <navPoint id="U8" class="capitulo" playOrder="85">
+            <NavLabel><text>Capítulo 2 - Sistema de equações</text></NavLabel>
+            <content scr="content/unidade8/capitulo1.html"/>
+            </navPoint>
+            <navPoint id="U8" class="subcapitulo" playOrder="86">
+            <NavLabel><text>Sistema de equações do 1.º grau com duas incógnitas</text></NavLabel>
+            <content scr="content/unidade8/capitulo1.html"/>
+            </navPoint>
+            <navPoint id="U8" class="subcapitulo" playOrder="87">
+            <NavLabel><text>Método da substituição</text></NavLabel>
+            <content scr="content/unidade8/capitulo1.html"/>
+            </navPoint>
+            <navPoint id="U8" class="subcapitulo" playOrder="88">
+            <NavLabel><text>Método de adição</text></NavLabel>
+            <content scr="content/unidade8/capitulo1.html"/>
+            </navPoint>
+            <navPoint id="U8" class="capitulo" playOrder="89">
+            <NavLabel><text>Capítulo 3 - Equações</text></NavLabel>
+            <content scr="content/unidade8/capitulo1.html"/>
+            </navPoint>
+            <navPoint id="U8" class="subcapitulo" playOrder="90">
+            <NavLabel><text>Equações do 2.ºgrau na forma reduzida</text></NavLabel>
+            <content scr="content/unidade8/capitulo1.html"/>
+            </navPoint>
+            <navPoint id="U8" class="subcapitulo" playOrder="91">
+            <NavLabel><text><b>Probabilidade e estatística</b> - Princípios multilicativo ou princípio fundamental</text></NavLabel>
+            <content scr="content/unidade8/capitulo1.html"/>
+            </navPoint>
+            <navPoint id="U8" class="subcapitulo" playOrder="92">
+            <NavLabel><text><b>Relembre</b></text></NavLabel>
+            <content scr="content/unidade8/capitulo1.html"/>
+            </navPoint>
+        </navPoint>
+        <navPoint id="U9" class="unidade" playOrder="93">
+            <NavLabel><text>Unidade 9 - Circunferência e círculo</text></NavLabel>
+            <content scr="content/unidade9/capitulo1.html"/>
+            <navPoint id="U9C1" class="capitulo" playOrder="94">
+            <NavLabel><text>Capítulo 1 - relembrando circunferência e círculo</text></NavLabel>
+            <content scr="content/unidade9/capitulo1.html"/>
+            </navPoint>
+            <navPoint id="U9C1" class="capitulo" playOrder="95">
+            <NavLabel><text> Capítulo 2 - Posiçôes relativas</text></NavLabel>
+            <content scr="content/unidade9/capitulo2.html"/>
+            </navPoint>
+            <navPoint id="U9C2" class="subcapitulo" playOrder="96">
+            <NavLabel><text>Posiçôes relativas entre duas circunferência</text></NavLabel>
+            <content scr="content/unidade9/capitulo2.html"/>
+            </navPoint>
+            <navPoint id="U9C2S1" class="subcapitulo" playOrder="97">
+            <NavLabel><text>Posiçôes relativas entre uma reta e uma circunferência</text></NavLabel>
+            <content scr="content/unidade9/capitulo2.html"/>
+            </navPoint>
+            <navPoint id="U9C3" class="capitulo" playOrder="98">
+            <NavLabel><text>Capítulo 3 - Arco e ângulo central</text></NavLabel>
+            <content scr="content/unidade9/capitulo3.html"/>
+            </navPoint>
+            <navPoint id="U9C3S1" class="subcapitulo" playOrder="99">
+            <NavLabel><text>Arco de cincunferência</text></NavLabel>
+            <content scr="content/unidade9/capitulo3.html"/>
+            </navPoint>
+            <navPoint id="U9C3S2" class="subcapitulo" playOrder="100">
+            <NavLabel><text>ângulo central</text></NavLabel>
+            <content scr="content/unidade9/capitulo3.html"/>
+            </navPoint>
+            <navPoint id="U9C3S3" class="subcapitulo" playOrder="101">
+            <NavLabel><text>ângulo inscrito</text></NavLabel>
+            <content scr="content/unidade9/capitulo3.html"/>
+            </navPoint>
+            <navPoint id="U9C3PROB" class="subcapitulo" playOrder="102">
+            <NavLabel><text><b>Probabilidade e estatística</b> - Probalidade de um evento ocorrer</text></NavLabel>
+            <content scr="content/unidade9/capitulo3.html"/>
+            </navPoint>
+            <navPoint id="U9C3REL" class="subcapitulo" playOrder="103">
+            <NavLabel><text><b>Relembre</b></text></NavLabel>
+            <content scr="content/unidade9/capitulo3.html"/>
+            </navPoint>
+        </navPoint>
+        
+        <navPoint id="ncx1" class="unidade" playOrder="104">
+            <NavLabel><text>Glossário</text></NavLabel>
+            <content scr="content/glossario.html"/>
+        </navPoint>
+        <navPoint id="ncx1" class="unidade" playOrder="105">
+            <NavLabel><text>Referências</text></NavLabel>
+            <content scr="content/Referências.html"/>
+        </navPoint>
+        <navPoint id="ncx1" class="unidade" playOrder="106">
+            <NavLabel><text>Sugestão de Leitura</text></NavLabel>
+            <content scr="content/sugestoes-de-leitura.html"/>
+        </navPoint>
+        <navPoint id="ncx1" class="unidade" playOrder="107">
+            <NavLabel><text>Respostas das Atividades</text></NavLabel>
+            <content scr="content/respostas-das-atividades.html"/>
+        </navPoint>
+        </navmap>
+    </html>        
+ </body>
